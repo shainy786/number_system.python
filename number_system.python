@@ -1,0 +1,58 @@
+ from decimal import Decimal as s
+# h=s(0.3+0.6)    
+# print(h)                               # will give  lengthy answer   as 0.899999999999999911182158029987476766109466552734375
+# h=s(0.3)+s(0.6)    
+# print(h)                               #    will give  lengthy answer   as  0.8999999999999999666933092612
+# h=s('0.6')+s("0.3") 
+# print(h)                               #0.9
+
+# a=0.53; b= 0.45
+# c=a+b
+# print(c)                                   #0.98                     
+# print("%.1f" %c)                           #1.0
+
+# print(7/0)
+
+# from fractions import Fraction as s
+# a=s(1,0)  
+# print(a)             #ZeroDivisionError: Fraction(1, 0)
+# a=s(1,1)
+# print(a)               #1
+# a=s(1,5)
+# print(a)                       #1/5
+# b=s(2)
+# print(b)                     #2
+# d=s(0,5)
+# print(d)                     #0
+# v=s(5,100)
+# print(v)                       #1/20
+
+'''Note: We can use Underscore _ in between the numbers 
+for clarity in reading and understanding the number.
+Ex: 1_23 is same as 123 one hundred and twenty three'''
+
+# a=7_86
+# print(a,type(a))             # 786 <class 'int'>
+
+# b=1_3.0
+# print(b,type(b))           # 13.0 <class float'>
+
+# c=1._03
+# print(c,type(c))           #SyntaxError: invalid decimal literal
+
+# d=1_.03
+# print(d,type(d))         # SyntaxError: invalid decimal literal
+
+# a=5;b=4.6
+# print(isinstance(a,float))
+# print(isinstance(a,bool))
+# print(isinstance(b,float))
+# print(isinstance(a,int))
+# print(isinstance(b,str))
+# print(isinstance(a,str))
+
+# c=4j
+# print(c,type(c))
+# d=1+3j
+# print(d,type(d))
+# print(isinstance(d,complex))
